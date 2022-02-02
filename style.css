@@ -1,0 +1,115 @@
+
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+#extra {
+  border: 1px solid mediumblue;
+  padding: 70px;
+  box-shadow: 4px 3px mediumblue;
+  margin-bottom: 30pt;
+  height: 180px;
+}
+
+h1 {
+  font-family: 'Rubik Beastly', cursive;
+  font-size: 100px;
+  font-weight: 100;
+  letter-spacing: 10px;
+  color: darkorange;
+  position: fixed;
+  z-index: 1;
+  margin-left: -40px;
+}
+
+h2 {
+  font-family: 'Space Mono', monospace;
+  color: mediumblue;
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: 9px;
+}
+
+h3 {
+  font-family: 'Space Mono', monospace;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 5px;
+  margin-top: 50px;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+}
+
+a {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: mediumblue;
+}
+
+a:hover {
+  color: rgb(14, 247, 33);
+}
+
+#discover {
+  background-color: darkorange;
+  padding: 20px;
+  box-shadow: 4px 3px mediumblue;
+}
+
+#pic_me {
+  height: 1000px;
+  position: relative
+}
+
+#no_border {
+  margin: 0 auto;
+  box-shadow: none;
+  width: 1000px;
+  border: none;
+}
+
+li {
+  display: inline-block;
+  font-size: 40px;
+  margin-top: -20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#icons {
+  height: 10px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
